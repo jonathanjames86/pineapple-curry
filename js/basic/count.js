@@ -16,3 +16,10 @@ count()
 // 3 (after 3 seconds)
 // 4 (after 4 seconds)
 
+var count = (function counter() {
+    var counter = 0;
+    return function () {return counter += 1;}
+})();
+ count();
+ count();
+ count()

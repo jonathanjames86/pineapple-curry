@@ -5,3 +5,11 @@
 
 // combinator([‘Jason', ‘Dan’, ‘Cahlan’], [‘Turner’, ‘Kesler’, ‘Sharp’]); →
 // [‘Jason Turner’, ‘Dan Kesler’, ‘Cahlan Sharp’];
+function combinator(arr1, arr2) {
+  var combine = [];
+  for(var i = 0; i < arr1.length; i++){
+    combine[i] = (arr[i] + ' ' + arr2[i]);
+
+  }
+  return combine;
+}

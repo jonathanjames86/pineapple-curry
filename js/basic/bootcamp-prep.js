@@ -1,35 +1,35 @@
 // create an array called 'myArray' that contains the numbers 1 - 5
-var myArray = [1, 2, 3, 4, 5]
+var myArray = [1,2,3,4,5]
 
 // create an object called 'myObject' that contains three properties
-var myObject = {
-  name: 'John',
-  location: 'San Francisco',
-  occupation: 'Software Engineer',
+var myObject {
+  name: "James",
+  age: 30,
+  state: "NV"
 }
-
 // write 'print' function
-function print (input) {
-  console.log(input)
+function print(){
+  console.log();
 }
-
 // print the second element of 'myArray' using the 'print' function
-print(myArray[1])
+print(myArray[1]);
 
 // print the second property of 'myObject' using two different methods
-print(myObject.location)
-print(myObject['location'])
+print(myObject.age);
+console.log(myObject.age);
+print(myObject[age]);
 
 // write 'each' function
-function each (collection, callback) {
-  if (Array.isArray(collection)) {
-    for (var i = 0; i < collection.length; i++) {
-      callback(collection[i])
+function each(index, callback){
+  if(array.isArray(index)){
+    for(var i = 0; i < index.length; i++) {
+      callback(index[i]);
     }
-  } else {
-    for (var key in collection) {
-      if (collection.hasOwnProperty(key)) {
-        callback(collection[key])
+  }
+  else {
+    for (var key in obj){
+      if (index.hasOwnProperty(key)){
+        callback(index[key]);
       }
     }
   }
