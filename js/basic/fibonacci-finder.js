@@ -5,9 +5,9 @@
 // * nthFibonacci(3); // => 3
 // * nthFibonacci(4); // => 5
 
-function fib(arr, n) {
+function fib(len, n) {
 	var ret = [0,1];
-	for(var i = 2; i < arr; i++){
+	for(var i = 2; i < len; i++){
 		var num = 0;
 		for(var j = ret.length - 1; j >= ret.length - n; j--){
 			if(ret[j]){
