@@ -14,4 +14,4 @@ function longestWord(str){
 	return word;
 }
 
-longestWord("I think you should consider the factoidss");
+longestWord();
